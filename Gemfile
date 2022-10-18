@@ -25,6 +25,10 @@ gem 'dry-validation', '~> 1.5.0'
 gem 'activesupport', '~> 6.0.0', require: false
 gem 'fast_jsonapi', '~> 1.5'
 
+gem "rack-ougai", "~> 0.3.0"
+gem 'amazing_print'
+gem "rack-request-id", "~> 0.0.4"
+
 group :test do
   gem 'rspec', '~> 3.9.0'
   gem 'factory_bot', '~> 5.2.0'
