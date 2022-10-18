@@ -7,5 +7,9 @@ pagination:
   page_size: 10
 app:
   secret: secret
+  name: geocoder
 rabbitmq:
   consumer_pool: 10
+logger:
+  path: log/app.log
+  level: info
